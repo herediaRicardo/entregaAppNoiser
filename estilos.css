@@ -1,0 +1,78 @@
+.agregarPubli{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.agregarPubli h1{
+    font-size: 15px;
+    text-align: center;
+}
+.agregarPubli form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.agregarPubli input{
+    margin-top: 4px;
+    height: 35px;
+    background-color: rgb(255, 225, 0);
+    border: none;
+    border-radius: 5px;
+}
+.agregarPubli form button{
+    margin-top: 20px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 225, 0);
+}
+.botonesPublis{
+    display: flex;    
+    height: 60px;
+    gap: 5px;
+}
+.botonesPublis #cancelButton{
+    background-color: rgb(251, 185, 53);
+}
+.botonesPublis :first-child{
+    width: 70%;
+    background-color: rgb(224, 123, 0);
+}
+
+.contenedorPublicaciones{
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 15px 50px -12px rgba(0, 0, 0, 0.515);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.tituloPubliSubida{
+  margin-left: 15px;
+  text-align: left;
+  width: 85%;
+}
+
+.spanDeDescripcion{
+    width: 85%;
+    height: auto;
+    font-size: 15px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.publicacion-media{
+   width: 95%;   
+   margin: auto;
+   margin-top: 5px;
+   border-radius: 10px;
+}
+
+
+
